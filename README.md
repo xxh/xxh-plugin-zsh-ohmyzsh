@@ -1,4 +1,4 @@
-Oh my zsh xxh plugin.
+[Oh my zsh](https://github.com/ohmyzsh/ohmyzsh/) xxh plugin.
 
 ## Install
 ```
