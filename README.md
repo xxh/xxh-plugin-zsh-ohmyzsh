@@ -7,5 +7,5 @@ cd ~/.xxh/xxh/plugins \
     && ./xxh-plugin-zsh-ohmyzsh/build.xsh
     
 # connect once with updating host
-xxh yourhost +if +s xxh-shell-zsh
+xxh yourhost +if +s zsh
 ```
