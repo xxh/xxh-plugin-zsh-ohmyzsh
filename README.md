@@ -1,6 +1,12 @@
 [Oh my zsh](https://github.com/ohmyzsh/ohmyzsh/) plugin for [xxh-shell-zsh](github.com/xxh/xxh-shell-zsh).
 
 ## Install
+From xxh repo:
+```
+xxhp i xxh-plugin-zsh-ohmyzsh
+xxh yourhost +s zsh +if
+```
+From any repo:
 ```
 cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-ohmyzsh \
