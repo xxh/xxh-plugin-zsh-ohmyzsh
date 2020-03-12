@@ -11,9 +11,14 @@ cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-ohmyzsh \
     && ./xxh-plugin-zsh-ohmyzsh/build.xsh
 ```
-
-## Connect
-Before connect you can change the theme settings in `~/.xxh/xxh/plugins/xxh-plugin-zsh-ohmyzsh/pluginrc.zsh`
+Connect:
 ``` 
 xxh yourhost +s zsh +if
 ```
+
+## Environment variables
+
+Xxh support environment variables: `xxh myhost +e NAME=VAL` or `~/.xxh/.xxhc` config.
+
+* `+e XXH_ZSH_PLUGIN_OHMYZSH_ZSH_THEME=clean` - set theme
+* `+e XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS="(git docker)"` - set plugins list
