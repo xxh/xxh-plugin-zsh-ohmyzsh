@@ -24,7 +24,7 @@ if [ $plugins ]; then
     echo Found plugins=$plugins
   fi
   if [[ $plugins == *"("* ]]; then
-    p=`echo -n $XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS | sed 's/\(^(\|)$\)//g'`
+    p=`echo -n $plugins | sed 's/\(^(\|)$\)//g'`
     IFS=' ' read -r -A plugins <<< "$p"
     export plugins
   fi
