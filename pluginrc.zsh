@@ -7,9 +7,10 @@ if [ $ZSH_THEME ]; then
     echo Found ZSH_THEME=$ZSH_THEME
   fi
   if [[ $ZSH_THEME == *"("* ]]; then
-    t=`echo -n $ZSH_THEME | sed 's/\(^(\|)$\)//g'`
-    IFS=' ' read -r -A ZSH_THEME <<< "$t"
-    export ZSH_THEME
+    echo "Something went wrong while running zsh on host:"
+    echo $check_result
+  else
+    echo $check_result > .entrypoint-check-done
   fi
 
 elif [ $XXH_ZSH_PLUGIN_OHMYZSH_ZSH_THEME ]; then
@@ -21,6 +22,11 @@ fi
 if [ $plugins ]; then
   if [[ $XXH_VERBOSE == '2' ]]; then
     echo Found plugins=$plugins
+  fi
+  if [[ $plugins != *"("* ]]; then
+    p=`echo -n $XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS | sed 's/\(^(\|)$\)//g'`
+    IFS=' ' read -r -A plugins <<< "$p"
+    export plugins
   fi
 elif [ $XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS ]; then
   p=`echo -n $XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS | sed 's/\(^(\|)$\)//g'`
