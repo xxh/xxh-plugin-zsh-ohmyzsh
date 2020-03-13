@@ -20,5 +20,5 @@ xxh yourhost +s zsh +if
 
 Xxh support environment variables: `xxh myhost +e NAME=VAL` or `~/.xxh/.xxhc` config.
 
-* `+e XXH_ZSH_PLUGIN_OHMYZSH_ZSH_THEME=clean` - set theme
-* `+e XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS="(git docker)"` - set plugins list
+* `+e ZSH_THEME=clean` - set theme
+* `+e plugins="(git ubuntu)"` - set plugins list
