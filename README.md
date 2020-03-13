@@ -11,9 +11,15 @@ cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-ohmyzsh \
     && ./xxh-plugin-zsh-ohmyzsh/build.xsh
 ```
-Connect:
+Connect manually:
 ``` 
 xxh yourhost +s zsh +if
+```
+
+## Seamless mode
+To use seamless mode with saving your theme and plugins use `source` command: 
+```
+source xxh.zsh myhost
 ```
 
 ## Environment variables
