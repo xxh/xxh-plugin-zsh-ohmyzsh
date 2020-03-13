@@ -41,3 +41,4 @@ fi
 
 export DISABLE_AUTO_UPDATE=true
 source $CURR_DIR/ohmyzsh/oh-my-zsh.sh
+autoload -U compinit && compinit
