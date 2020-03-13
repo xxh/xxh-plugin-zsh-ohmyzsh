@@ -23,7 +23,7 @@ if [ $plugins ]; then
   if [[ $XXH_VERBOSE == '2' ]]; then
     echo Found plugins=$plugins
   fi
-  if [[ $plugins != *"("* ]]; then
+  if [[ $plugins == *"("* ]]; then
     p=`echo -n $XXH_ZSH_PLUGIN_OHMYZSH_PLUGINS | sed 's/\(^(\|)$\)//g'`
     IFS=' ' read -r -A plugins <<< "$p"
     export plugins
