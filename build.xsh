@@ -19,5 +19,4 @@ if pluginrc_file.exists():
 
 ohmyzsh_home = plugin_build_path / 'ohmyzsh'
 if not ohmyzsh_home.exists():
-    print('Git clone')
     git clone @(arg_q) --depth 1 https://github.com/robbyrussell/oh-my-zsh.git @(ohmyzsh_home)
