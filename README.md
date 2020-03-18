@@ -9,7 +9,7 @@ Install from any repo:
 ```
 cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-ohmyzsh \
-    && ./xxh-plugin-zsh-ohmyzsh/build.xsh
+    && ./xxh-plugin-zsh-ohmyzsh/build.sh
 ```
 Connect manually:
 ``` 
