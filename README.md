@@ -3,7 +3,7 @@
 ## Install
 Install from xxh repo:
 ```
-xxhp i xxh-plugin-zsh-ohmyzsh
+xxh +I xxh-plugin-zsh-ohmyzsh
 ```
 Install from any repo:
 ```
