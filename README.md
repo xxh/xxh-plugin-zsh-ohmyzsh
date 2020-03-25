@@ -7,11 +7,9 @@ xxh +I xxh-plugin-zsh-ohmyzsh
 ```
 Install from any repo:
 ```
-cd ~/.xxh/xxh/plugins \
-    && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-ohmyzsh \
-    && ./xxh-plugin-zsh-ohmyzsh/build.sh
+XXH +I xxh-plugin-zsh-ohmyzsh+git+https://github.com/xxh/xxh-plugin-zsh-ohmyzsh
 ```
-Connect manually:
+Connect:
 ``` 
 xxh yourhost +s zsh +if
 ```
