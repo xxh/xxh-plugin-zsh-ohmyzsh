@@ -25,4 +25,4 @@ source xxh.zsh myhost
 Xxh support environment variables: `xxh myhost +e NAME=VAL` or `~/.config/xxh/config.xxhc` (`$XDG_CONFIG_HOME`) config.
 
 * `+e ZSH_THEME=clean` - set theme
-* `+e plugins="(git ubuntu)"` - set plugins list
+* `+e plugins_="(git ubuntu)"` - set plugins list
