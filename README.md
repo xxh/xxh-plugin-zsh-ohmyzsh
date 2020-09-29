@@ -12,9 +12,9 @@ Install from xxh repo:
 ```
 xxh +I xxh-plugin-zsh-ohmyzsh
 ```
-Install from any repo:
+Install from any Github repo:
 ```
-XXH +I xxh-plugin-zsh-ohmyzsh+git+https://github.com/xxh/xxh-plugin-zsh-ohmyzsh
+XXH +I https://github.com/xxh/xxh-plugin-zsh-ohmyzsh
 ```
 Connect:
 ``` 
