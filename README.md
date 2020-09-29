@@ -1,4 +1,11 @@
-[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/) plugin for [xxh-shell-zsh](github.com/xxh/xxh-shell-zsh).
+<p align="center">  
+<a href="https://github.com/ohmyzsh/ohmyzsh/">Oh My Zsh</a> plugin for <a href="github.com/xxh/xxh-shell-zsh">xxh-shell-zsh</a>.
+</p>
+
+<p align="center">  
+If you like the idea of xxh click ⭐ on the repo and stay tuned.
+</p>
+
 
 ## Install
 Install from xxh repo:
