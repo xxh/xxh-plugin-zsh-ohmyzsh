@@ -1,5 +1,5 @@
 <p align="center">  
-<a href="https://github.com/ohmyzsh/ohmyzsh/">Oh My Zsh</a> plugin for <a href="github.com/xxh/xxh-shell-zsh">xxh-shell-zsh</a>.
+<a href="https://github.com/ohmyzsh/ohmyzsh/">Oh My Zsh</a> plugin for <a href="//github.com/xxh/xxh-shell-zsh">xxh-shell-zsh</a>.
 </p>
 
 <p align="center">  
