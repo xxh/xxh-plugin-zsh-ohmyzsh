@@ -14,9 +14,10 @@ else
   export ZSH_THEME="agnoster"
 fi
 
-if [[ -v plugins ]]; then
+if [[ -v plugins_ ]]; then
   if [[ $XXH_VERBOSE == '2' ]]; then
-    echo $plugin_name: Found plugins=$plugins
+    echo $plugin_name: Found plugins=$plugins_
+    eval "export plugins=$plugins_"
   fi
 else
   if [[ $XXH_VERBOSE == '2' ]]; then
